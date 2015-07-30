@@ -21,7 +21,7 @@ var FacebookLogin = React.createClass({
     return {
       result: '...'
     }
-  },
+  }
 
   login() {
     FacebookLoginManager.newSession((error, info) => {
@@ -31,7 +31,7 @@ var FacebookLogin = React.createClass({
         this.setState({result: info});
       }
     });
-  },
+  }
 
   render: function() {
     return (
