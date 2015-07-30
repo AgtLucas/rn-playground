@@ -10,7 +10,10 @@ var {
   StyleSheet,
   Text,
   View,
+  TouchableHighlight
 } = React;
+
+var FacebookLoginManager = require('NativeModules').FacebookLoginManager;
 
 var FacebookLogin = React.createClass({
   render: function() {
