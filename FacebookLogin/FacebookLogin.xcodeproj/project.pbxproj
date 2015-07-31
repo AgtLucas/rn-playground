@@ -27,6 +27,7 @@
 		A0AC4E861B6AEB2F00642B0D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AC4E851B6AEB2F00642B0D /* FBSDKLoginKit.framework */; };
 		A0AC4E881B6AEB3F00642B0D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AC4E871B6AEB3F00642B0D /* FBSDKShareKit.framework */; };
 		A0AC4E8A1B6AEB4700642B0D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AC4E891B6AEB4700642B0D /* Bolts.framework */; };
+		A0AC4E8D1B6AF07A00642B0D /* FacebookLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AC4E8C1B6AF07A00642B0D /* FacebookLoginManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +137,7 @@
 		A0AC4E871B6AEB3F00642B0D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		A0AC4E891B6AEB4700642B0D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		A0AC4E8B1B6AEFFE00642B0D /* FacebookLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookLoginManager.h; sourceTree = "<group>"; };
+		A0AC4E8C1B6AF07A00642B0D /* FacebookLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookLoginManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +256,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				A0AC4E8B1B6AEFFE00642B0D /* FacebookLoginManager.h */,
+				A0AC4E8C1B6AF07A00642B0D /* FacebookLoginManager.m */,
 			);
 			name = FacebookLogin;
 			sourceTree = "<group>";
@@ -552,6 +555,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0AC4E8D1B6AF07A00642B0D /* FacebookLoginManager.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
