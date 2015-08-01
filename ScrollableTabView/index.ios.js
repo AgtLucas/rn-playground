@@ -22,7 +22,33 @@ var App = React.createClass({
   render: function() {
     return (
       <View style={styles.container}>
-
+        <ScrollableTabView render={() => <FacebookTabBar />}>
+          <ScrollView tabLabel="ion|ios-paper" style={styles.tabView}>
+            <View style={styles.card}>
+              <Text>News</Text>
+            </View>
+          </ScrollView>
+          <ScrollView tabLabel="ion|person-stalker" style={styles.tabView}>
+            <View style={styles.card}>
+              <Text>Friends</Text>
+            </View>
+          </ScrollView>
+          <ScrollView tabLabel="ion|ios-chatboxes" style={styles.tabView}>
+            <View style={styles.card}>
+              <Text>Messenger</Text>
+            </View>
+          </ScrollView>
+          <ScrollView tabLabel="ion|ios-world" style={styles.tabView}>
+            <View style={styles.card}>
+              <Text>Notifications</Text>
+            </View>
+          </ScrollView>
+          <ScrollView tabLabel="ion|navicon-round" style={styles.tabView}>
+            <View style={styles.card}>
+              <Text>Other nav</Text>
+            </View>
+          </ScrollView>
+        </ScrollableTabView>
       </View>
     );
   }

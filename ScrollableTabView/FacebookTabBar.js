@@ -71,12 +71,12 @@ var FacebookTabBar = React.createClass({
   },
 
   render() {
-    return(
+    return (
       <View style={styles.tabs}>
         {this.props.tabs.map((tab, i) => this.renderTabOption(tab, i))}
       </View>
     );
-  }
+  },
 
 });
 
