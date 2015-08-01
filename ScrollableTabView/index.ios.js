@@ -27,6 +27,24 @@ var App = React.createClass({
             <View style={styles.card}>
               <Text>Vou agora</Text>
             </View>
+            <View style={styles.card}>
+              <Text>Vou agora</Text>
+            </View>
+            <View style={styles.card}>
+              <Text>Vou agora</Text>
+            </View>
+            <View style={styles.card}>
+              <Text>Vou agora</Text>
+            </View>
+            <View style={styles.card}>
+              <Text>Vou agora</Text>
+            </View>
+            <View style={styles.card}>
+              <Text>Vou agora</Text>
+            </View>
+            <View style={styles.card}>
+              <Text>Vou agora</Text>
+            </View>
           </ScrollView>
           <ScrollView tabLabel="Todas as linhas" style={styles.tabView}>
             <View style={styles.card}>
@@ -42,7 +60,7 @@ var App = React.createClass({
 var styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 30,
+    marginTop: 80,
   },
   tabView: {
     width: deviceWidth,
