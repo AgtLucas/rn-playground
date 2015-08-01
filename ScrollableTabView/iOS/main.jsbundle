@@ -1422,6 +1422,24 @@ React.createElement(View,{style:styles.container},
 React.createElement(ScrollableTabView,{render:function(){return React.createElement(FacebookTabBar,null);}},
 React.createElement(ScrollView,{tabLabel:'Vou agora',style:styles.tabView},
 React.createElement(View,{style:styles.card},
+React.createElement(Text,null,'Vou agora')),
+
+React.createElement(View,{style:styles.card},
+React.createElement(Text,null,'Vou agora')),
+
+React.createElement(View,{style:styles.card},
+React.createElement(Text,null,'Vou agora')),
+
+React.createElement(View,{style:styles.card},
+React.createElement(Text,null,'Vou agora')),
+
+React.createElement(View,{style:styles.card},
+React.createElement(Text,null,'Vou agora')),
+
+React.createElement(View,{style:styles.card},
+React.createElement(Text,null,'Vou agora')),
+
+React.createElement(View,{style:styles.card},
 React.createElement(Text,null,'Vou agora'))),
 
 
@@ -1439,7 +1457,7 @@ React.createElement(Text,null,'Todas as linhas'))))));}});
 var styles=StyleSheet.create({
 container:{
 flex:1,
-marginTop:30},
+marginTop:80},
 
 tabView:{
 width:deviceWidth,
